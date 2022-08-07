@@ -1,0 +1,144 @@
+section {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+
+}
+
+.container {
+    display: flex;
+}
+
+.socialMedia {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 38%;
+    margin-left: 30px;
+    font-size: 50px;
+}
+.socialMedia2 {
+    display: none;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    margin: 192px 74px 0 40px; 
+    gap: 20px;
+}
+
+h1 {
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 100%;
+color: #FF6B00;
+margin: 0;
+}
+
+span {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+    color: #1A2236;
+}
+
+p {
+ width: 484px;
+height: 84px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+letter-spacing: -0.01em;
+color: #1A2236;
+
+}
+
+.hero-image > img{
+    width: 600px;
+} 
+
+
+
+@media (max-width: 768px) {
+    section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .socialMedia {
+        display: none;
+    } 
+
+    .socialMedia2 {
+    height: 200px;
+    display: flex;
+    gap: 30px;
+    margin-left: 16px;
+    font-size: 30px;
+}
+    
+    .container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+    .hero-container {
+        display: flex;
+        flex-direction: column;
+        margin: 50px 0 0 0;
+    }
+
+    span {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+    color: #1A2236;
+    margin-left: 16px;
+}
+
+    h1 {
+    font-family: 'Crete Round';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    color: #FF6B00;
+    width: 327px;
+    margin-left: 16px;
+  
+}
+
+p {
+    width: 288px;
+    height: 126px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: -0.01em;
+    color: #1A2236;
+    margin: 0 16px;
+}
+
+.hero-image {
+    width: 100%;
+    height: 180px;
+    margin-top: -7rem;
+}
+.hero-image > img {
+    width: 375px;
+    object-position: top;
+    object-fit: cover;
+    height: 100%;
+}
+}

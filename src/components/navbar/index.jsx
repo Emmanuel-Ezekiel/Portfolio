@@ -1,18 +1,13 @@
-import React, { useRef, useState } from 'react'
-import styled from 'styled-components'
+import React, { useState } from 'react'
 import Menu from '../../assets/menu_FILL0_wght400_GRAD0_opsz48.svg'
 import Cancel from '../../assets/close_FILL0_wght400_GRAD0_opsz48.svg'
-import Mail from '../../assets/mail_FILL0_wght400_GRAD0_opsz48.svg'
-import menuItems from "./NavItems";
 import "./Navbar.css";
-
 import Group from "../../assets/Group 98.svg"
 import Mask from "../../assets/Mask Group.svg"
 
 const Index = () => {
 
-       const [isOpen, setIsOpen] = useState(false);
-
+ const [isOpen, setIsOpen] = useState(false);
 
   return (
     <header>
