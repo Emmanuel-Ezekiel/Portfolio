@@ -1,0 +1,248 @@
+.PortContainer {
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+}
+
+.recentWork {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 24px;
+width: 1133px;
+height: 52px;
+margin-left: 105px;
+}
+
+.work {
+font-family: 'Crete Round';
+font-weight: 400;
+font-size: 40px;
+line-height: 52px;
+color: #091E42;
+}
+
+.line {
+    width: 794px;
+    border: 1px solid #212121;
+}
+
+.workContainer {
+ display: flex;
+flex-direction: column;
+align-items: center;
+padding: 130px 24px;
+gap: 114px;
+width: 1204px;
+height: 1805px;
+margin: 0 118px;
+}
+
+.FeaturedWork {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 88px;
+width: 1156px;
+height: 2056px;
+flex: none;
+order: 1;
+flex-grow: 0;
+margin-left: 90px;
+}
+
+.imgFeatured {
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+padding: 0px;
+gap: 24px;
+width: 1156px;
+height: 448px;
+}
+
+.imgFeatured:nth-last-of-type(even) {
+ display: flex;
+flex-direction: row-reverse;
+align-items: flex-end;
+padding: 0px;
+gap: 24px;
+width: 1156px;
+height: 448px;
+}
+
+.rightBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    width: 448px;
+    height: 405px;
+}
+
+.desc {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    height: 140px;
+    text-overflow: ellipsis;
+    width: 400px;
+}
+
+.tech {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    width: 307px;
+    height: 40px;
+}
+
+.imgContainer {
+border: 1px solid;
+width: 684px;
+height: 448px;
+}
+
+.button {
+    padding: 12px;
+    text-align: center;
+    gap: 10px;
+    width: 300px;
+    height: 48px;
+    background: #9390FF;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.techSkill {
+    border-right: 1px solid #555555;
+    padding: 0 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+
+@media (max-width: 768px) { 
+    .PortContainer {
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+}
+
+.recentWork {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 24px;
+margin: 0;
+width: 327px;
+height: 107px;
+}
+
+.workContainer {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 120px 0px;
+gap: 80px;
+width: 375px;
+height: 100%;
+margin: 0;
+}
+
+.line {
+    width: 327px;
+  border: 1px solid #212121;
+}
+
+.work {
+font-family: 'Crete Round';
+font-weight: 400;
+font-size: 40px;
+line-height: 52px;
+color: #091E42;
+}
+
+.FeaturedWork {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+width: 327px;
+height: 729px;
+margin: 0;
+}
+
+.imgContainer {
+border: 1px solid;
+width: 327px;
+height: 236px;
+}
+
+.rightBlock {
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+width: 327px;
+height: 469px;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.imgFeatured {
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+width: 327px;
+height: 729px;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.imgFeatured:nth-last-of-type(even) {
+ display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+width: 327px;
+height: 729px;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.desc {
+ margin: 0;
+  text-overflow: ellipsis;
+  width: 327px;
+height: 204px;
+
+}
+.button {
+ margin: 0;
+}
+.name {
+ margin: 0;
+}
+
+
+}

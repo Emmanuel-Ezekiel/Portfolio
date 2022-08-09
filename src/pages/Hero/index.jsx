@@ -8,7 +8,7 @@ import { ImFacebook } from "react-icons/im";
 
 const index = () => {
   return (
-    <section>
+    <section id="Home">
       <div className="container">
         <div className="socialMedia">
           <ImLinkedin2 />
