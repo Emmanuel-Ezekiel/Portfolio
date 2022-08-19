@@ -26,7 +26,7 @@ const Index = () => {
             />
           </div>
           <div className="list">
-            <ScrollTo selector="Portfolio" className="scroll">
+            <ScrollTo selector={"#Portfolio"} className="scroll">
               <div className="por">Portfolio</div>
             </ScrollTo>
             <ScrollTo selector="About" className="scroll">

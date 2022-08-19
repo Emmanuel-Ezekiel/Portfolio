@@ -1,0 +1,202 @@
+.aboutContainer {
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+}
+
+.about {
+    display: flex;
+    /* flex-direction: column; */
+    gap: 24px;
+    width: 1131px;
+    /* height: 752px; */
+    margin-top: 50px;
+    padding: 50px 0 50px 60px;
+}
+
+.aboutSelf{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 447px;
+    height: 392px;
+}
+
+.aboutHead {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091E42;
+}
+
+.aboutPara {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+}
+
+.aboutCon {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7F8CFF;
+}
+
+.aboutIcon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+    width: 200px;
+    height: 40px;
+    margin-top: 24px;
+}
+
+.aboutResume {
+padding: 12px;
+width: 162px;
+height: 28px;
+border: 1px solid #6070FF;
+border-radius: 8px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 24px;
+letter-spacing: 0.03em;
+text-align: center;
+color: #396DF2;
+margin-top: 24px;
+}
+
+.skillList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 684px;
+    height: 360px;
+}
+
+.dropdown-group {
+  display: none;
+}
+
+.dropdown-group.active {
+  display: block;
+}
+
+
+.languages {
+    width: 600px;
+    border-bottom: 1px solid #DFE1E6;
+    padding: 10px;
+}
+.frameworks {
+    width: 600px;
+    padding: 10px;
+     border-bottom: 1px solid #DFE1E6;
+}
+.skills {
+    width: 600px;
+     border-bottom: 1px solid #DFE1E6;
+      padding: 10px;
+}
+
+
+.dropdown-header {
+  padding: 15px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dropdown-body {
+  padding: 5px;
+  border-top: 1px solid #E5E8EC;
+  display: none;
+}
+
+.dropdown-body.open {
+  display: block;
+}
+
+.dropdown-item {
+  padding: 10px;
+}
+
+.dropdown-item:hover {
+  cursor: pointer;
+}
+
+.dropdown-item-dot {
+  opacity: 0;
+  color: #000;
+  transition: all .2s ease-in-out;
+}
+
+.dropdown-item-dot.selected {
+  opacity: 1;
+}
+
+.icon {
+  font-size: 13px;
+  color: #000;
+  transform: rotate(0deg);
+  transition: all .2s ease-in-out;
+}
+
+.icon.open {
+  transform: rotate(90deg);
+}
+
+
+@media (max-width: 768px) { 
+
+.about {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 0px;
+    margin-top: 50px;
+    padding: 0px;
+}
+
+.skillList {
+ display: flex;
+flex-direction: column;
+align-items: flex-start;
+width: 327px;
+height: 320.15px;
+}
+
+.languages {
+    width: 327px;
+    border-bottom: 1px solid #DFE1E6;
+    padding: 10px;
+}
+.aboutIcon {
+    margin-left: 20px;
+}
+
+.aboutResume {
+  margin-left: 20px;
+}
+
+.aboutSelf{
+    width: 327px;
+  
+}
+
+.dropdown-header span {
+  margin: 0;
+}
+}

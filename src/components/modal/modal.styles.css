@@ -1,0 +1,178 @@
+.ModalContainer  {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.50);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+  z-index: 99;
+  opacity: 0;
+
+}
+
+.show {
+opacity: 1;
+overflow: hidden;
+pointer-events: all;
+}
+
+.Modal-content {
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  height: 100vh;
+  overflow: scroll;
+  /* margin-top: 24px; */
+}
+
+.modal-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 24px;
+    height: 48px;
+}
+
+.modal-header > h1 {
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+}
+
+.modal-header > img {
+cursor: pointer;
+
+}
+
+.modal-image {
+  height: 400px;
+  margin: 24px;
+ 
+}
+
+.modal-desc {
+/* margin: 50px; */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+text-align: center;
+
+}
+
+.modal-desc > .itemDesc {
+  text-align: center;
+}
+
+.modal-tech {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    width: 307px;
+    height: 40px;
+    text-align: center;
+    margin-left: 23px;
+}
+
+.container-Source {
+  display: flex;
+  flex-direction: column;
+  
+  margin: 24px;
+
+}
+
+
+.techSkill {
+    border-right: 1px solid #555555;
+    padding: 0 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.modal-codeSource {
+   display: flex;
+   gap: 30px;
+   margin: 40px auto;
+}
+
+.live {
+  width: 246px;
+  font-weight: 500;
+  font-size: 18px;
+  height: 51px;
+   display: flex;
+   align-items: center;
+  border: 1px solid #1A2236;
+   justify-content: space-between;
+}
+
+.source {
+  width: 246px;
+  height: 51px;
+  background: #1A2236;
+  color: #FFFFFF;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+
+#link {
+  margin-left: 20px;
+  font-weight: 500;
+font-size: 24px;
+}
+
+#git {
+  color:#FFFFFF;
+  margin-left: 20px;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.gitLink {
+  height: 24px;
+  width: 24px;
+  margin-right: 10px;
+
+}
+
+@media (max-width: 768px) { 
+
+.modal-header > h1 {
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+}
+
+.modal-header > img {
+cursor: pointer;
+height: 24px;
+width: 24px;
+}
+
+.modal-header {
+    display: flex;
+    align-items: center;
+}
+
+.modal-codeSource {
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+   margin: 40px auto;
+}
+}

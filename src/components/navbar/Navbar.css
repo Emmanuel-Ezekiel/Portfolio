@@ -142,7 +142,7 @@
   .Navbar > .nav-items > .list div {
   text-decoration: none;
   margin-top: 15px;
-  border-bottom:  2px solid  #6F6C6B;
+ 
   padding-bottom: 5px;
   font-family: 'Inter';
   font-style: normal;
@@ -169,6 +169,10 @@
     color: #ffffff;
     cursor: pointer;
   }
+
+.por {
+   border-bottom:  2px solid  #6F6C6B;
+}
 
  img {
     height: 50px;
