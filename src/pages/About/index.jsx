@@ -1,26 +1,47 @@
-import React, { useState, useEffect }from 'react'
+import React, { useState, useEffect }from 'react';
 import { RiGithubLine } from 'react-icons/ri';
 import { ImLinkedin2 } from "react-icons/im";
 import { ImTwitter } from "react-icons/im";
 import { ImFacebook } from "react-icons/im";
 import Html from "../../assets/Ellipse 1.svg"
-import Javascript from "../../assets/Ellipse 1 (1).svg"
-import Css from "../../assets/Ellipse 1 (2).svg"
+import Javascript from "../../assets/Ellipse 1 (1).svg";
+import Css from "../../assets/Ellipse 1 (2).svg";
+import Node from "../../assets/node-js.png";
+import react from "../../assets/physics.png";
+import Sass from "../../assets/sass.png";
+import Typescript from "../../assets/typescript.png";
+import Next from "../../assets/next.png";
+import Git from "../../assets/git.png";
+import Github from "../../assets/github.png";
+import Tailwind from "../../assets/tail.png";
+import Mobile from "../../assets/react native.png";
+import Figma from "../../assets/figma.png";
+
+import { IoIosArrowDropdown } from "react-icons/io";
+
 import './about.styles.css';
+import MyFile from "../../assets/Emmanuel_frontDev.pdf";
 
 const data = [
-  { id: 0, label: "javascript", image: Javascript },
-  { id: 1, label: "html" , image: Html},
+  { id: 0, label: "Javascript", image: Javascript },
+  { id: 1, label: "Html" , image: Html},
+  { id: 2, label: "Css" , image: Css},
+  { id: 3, label: "Node js" , image: Node},
 ];
 
 const data2 = [
-  { id: 0, label: "react" },
-  { id: 1, label: "styled-component" },
+  { id: 0, label: "React", image: react },
+  { id: 1, label: "Sass", image: Sass },
+  { id: 2, label: "Typescript", image: Typescript },
+  { id: 3, label: "Next Js", image: Next },
+  { id: 4, label: "Native", image: Mobile },
+  { id: 5, label: "Tailwind", image: Tailwind },
 ];
 
 const data3 = [
-  { id: 0, label: "Github" },
-  { id: 1, label: "Figma" },
+  { id: 0, label: "Github", image: Github },
+  { id: 1, label: "Git", image: Git },
+  { id: 2, label: "Figma", image: Figma },
 ];
 
 const Index = () => {
@@ -41,7 +62,7 @@ const Index = () => {
       };
 
   return (
-    <section id="about" className="aboutContainer">
+    <section id="About" className="aboutContainer">
       <div className="about">
         <div className="aboutSelf">
           <span className="aboutHead">About MySelf</span>
@@ -53,27 +74,55 @@ const Index = () => {
           </p>
           <span className="aboutCon">LET’S CONNECT</span>
           <div className="aboutIcon">
-            <ImLinkedin2 />
-            <RiGithubLine />
-            <ImTwitter />
-            <ImFacebook />
+            <a
+              href="https://www.linkedin.com/in/emmanuel-ezekiel"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <ImLinkedin2 />
+            </a>
+            <a
+              href="https://www.github.com/emmanuel-ezekiel"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <RiGithubLine />
+            </a>
+            <a
+              href="https://twitter.com/Rungee_Codes"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <ImTwitter />
+            </a>
+            <a
+              href="https://www.facebook.com/emamex"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <ImFacebook />
+            </a>
           </div>
-          <div className="aboutResume">Get My Resume</div>
+          <a
+            href={MyFile}
+            download="Emmanuel_frontDev.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="aboutResume">Get My Resume</div>
+          </a>
         </div>
         <div className="skillList">
           <div className="languages">
             <div className="dropdown-header" onClick={toggleDropdown}>
               <span>Languages</span>
-              <i className={`fa fa-chevron-right icon ${isOpen && "open"}`}></i>
+              <IoIosArrowDropdown className={` icon ${isOpen && "open"}`} />
             </div>
             <div className={`dropdown-body ${isOpen && "open"}`}>
               {items.map((item) => (
-                <div
-                  className="dropdown-item"
-                  id={item.id}
-                >
-                  {item.label}
+                <div className="dropdown-item" id={item.id}>
                   <img src={item.image} alt="" />
+                  <span className="itemName">{item.label}</span>
                 </div>
               ))}
             </div>
@@ -81,15 +130,13 @@ const Index = () => {
           <div className="languages">
             <div className="dropdown-header" onClick={toggleDropdown2}>
               <span>Frameworks</span>
-              <i className={`fa fa-chevron-right icon ${isOpen2 && "open"}`}></i>
+              <IoIosArrowDropdown className={` icon ${isOpen2 && "open"}`} />
             </div>
             <div className={`dropdown-body ${isOpen2 && "open"}`}>
               {items2.map((item) => (
-                <div
-                  className="dropdown-item"
-                  id={item.id}
-                >
-                  {item.label}
+                <div className="dropdown-item" id={item.id}>
+                  <img src={item.image} alt="" />
+                  <span className="itemName">{item.label}</span>
                 </div>
               ))}
             </div>
@@ -97,15 +144,13 @@ const Index = () => {
           <div className="languages">
             <div className="dropdown-header" onClick={toggleDropdown3}>
               <span>Skills</span>
-              <i className={`fa fa-chevron-right icon ${isOpen3 && "open"}`}></i>
+              <IoIosArrowDropdown className={` icon ${isOpen3 && "open"}`} />
             </div>
             <div className={`dropdown-body ${isOpen3 && "open"}`}>
               {items3.map((item) => (
-                <div
-                  className="dropdown-item"
-                  id={item.id}
-                >
-                  {item.label}
+                <div className="dropdown-item" id={item.id}>
+                  <img src={item.image} alt="" />
+                  <span className="itemName">{item.label}</span>
                 </div>
               ))}
             </div>

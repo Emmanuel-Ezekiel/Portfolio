@@ -15,7 +15,6 @@ const Index = () => {
     const selectedRec = Data.find((val) => val.id === selectedId);
     console.log(selectedRec);
     setSelectedData([selectedRec]);
-    // setShow(true);
   };
 
 
@@ -32,7 +31,7 @@ const Index = () => {
           {Data.map((item, index) => (
             <div key={index} className="imgFeatured">
               <div className="imgContainer">
-                <img src="" alt="" srcset="" />
+                <img src={item.image} alt="" srcset="" />
               </div>
               <div className="rightBlock">
                 <span className="name">{item.name}</span>

@@ -13,7 +13,7 @@ const Index = () => {
   return (
     <header>
       <div className="Navbar">
-        <ScrollTo selector="Home">
+        <ScrollTo selector={"#Home"}>
           <span className="nav-logo">Emmanuel Ezekiel</span>
         </ScrollTo>
         <div className={`nav-items ${isOpen && "open"}`}>
@@ -27,13 +27,19 @@ const Index = () => {
           </div>
           <div className="list">
             <ScrollTo selector={"#Portfolio"} className="scroll">
-              <div className="por">Portfolio</div>
+              <div className="por" onClick={() => setIsOpen(!isOpen)}>
+                Portfolio
+              </div>
             </ScrollTo>
-            <ScrollTo selector="About" className="scroll">
-              <div  className="por">About</div>
+            <ScrollTo selector={"#About"} className="scroll">
+              <div className="por" onClick={() => setIsOpen(!isOpen)}>
+                About
+              </div>
             </ScrollTo>
-            <ScrollTo selector="Contact" className="scroll">
-              <div  className="por">Contact</div>
+            <ScrollTo selector={"#Contact"} className="scroll">
+              <div className="por" onClick={() => setIsOpen(!isOpen)}>
+                Contact
+              </div>
             </ScrollTo>
           </div>
 

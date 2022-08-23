@@ -11,17 +11,41 @@ const index = () => {
     <section id="Home">
       <div className="container">
         <div className="socialMedia">
-          <ImLinkedin2 />
-          <ImGithub />
-          <ImTwitter />
-          <ImFacebook />
+          <a
+            href="https://www.linkedin.com/in/emmanuel-ezekiel"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <ImLinkedin2 />
+          </a>
+          <a
+            href="https://www.github.com/emmanuel-ezekiel"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <ImGithub />
+          </a>
+          <a
+            href="https://twitter.com/Rungee_Codes"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <ImTwitter />
+          </a>
+          <a
+            href="https://www.facebook.com/emamex"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <ImFacebook />
+          </a>
         </div>
         <div className="hero-container">
           <h1>
             Hey There. <br />
             I'm Emmmanuel Ezekiel
           </h1>
-          <span>I'm a Software Developer</span>
+          <span>I'm a Frontend Developer</span>
           <p>
             I can help you build a product , feature or website Look through
             some of my work and experience! If you like what you see and have a
@@ -29,10 +53,34 @@ const index = () => {
           </p>
         </div>
         <div className="socialMedia2">
-          <ImLinkedin2 />
-          <ImGithub />
-          <ImTwitter />
-          <ImFacebook />
+          <a
+            href="https://www.linkedin.com/in/emmanuel-ezekiel"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <ImLinkedin2 />
+          </a>
+          <a
+            href="https://www.github.com/emmanuel-ezekiel"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <ImGithub />
+          </a>
+          <a
+            href="https://twitter.com/Rungee_Codes"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <ImTwitter />
+          </a>
+          <a
+            href="https://www.facebook.com/emamex"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <ImFacebook />
+          </a>
         </div>
       </div>
 

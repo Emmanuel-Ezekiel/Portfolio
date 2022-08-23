@@ -1,34 +1,45 @@
+import Mech from "../../assets/Screen Shot 2022-08-20 at 3.52.06 PM.jpg";
+import Spend from "../../assets/Screen Shot 2022-08-20 at 4.47.43 PM.jpg"
+import Food from "../../assets/Screen Shot 2022-08-20 at 4.35.13 PM.jpg"
+import Vis from "../../assets/Screen Shot 2022-08-20 at 5.45.42 PM.jpg"
+
+
 const Data = [
   {
-    name: "Multi-Purpose",
+    name: "1automech",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus similique aliquam odit quod incidunt dicta! Repellendus sed reiciendis, amet inventore voluptatem corrupti provident nisi modi facilis voluptates doloribus ex rem.",
-    tech: [ 'css', 'react', 'node'],
+      "1automech is your best stop for finding auto mechanics and workshops near you for efficient car repair and great spare part deals,an online platform designed to connect car owners with mechanics and car spare part dealers",
+    tech: ["React", "Sass", "Php", "MySql"],
+    image: Mech,
+    link: "https://www.1automech.com",
     id: 1,
   },
   {
-    name: "Multi-Purpose",
+    name: "SpendWise.Ng",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus similique aliquam odit quod incidunt dicta! Repellendus sed reiciendis, amet inventore voluptatem corrupti provident nisi modi facilis voluptates doloribus ex rem.",
-    tech: [ 'css', 'react', 'node'],
-     id: 2,
-    
+      "Spendwise ensures all monetary operations are executed & monitored seamlessly, via the use of our unique & simple expense management tools that suits you & your business.",
+    tech: ["React", "Style-Component", "node"],
+    link: "https://business.spendwise.ng/",
+    image: Spend,
+    id: 2,
   },
   {
-    name: "Multi-Purpose",
+    name: "Food-Slope",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus similique aliquam odit quod incidunt dicta! Repellendus sed reiciendis, amet inventore voluptatem corrupti provident nisi modi facilis voluptates doloribus ex rem.",
-    tech: [ 'css', 'react', 'node'],
-     id: 3,
-    
+    tech: ["React", "Sass", "node", "MySql"],
+    link: "https://staging.foodslope.com/",
+    image: Food,
+    id: 3,
   },
   {
-    name: "Multi-Purpose",
+    name: "Visqorium",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus similique aliquam odit quod incidunt dicta! Repellendus sed reiciendis, amet inventore voluptatem corrupti provident nisi modi facilis voluptates doloribus ex rem.",
-    tech: [ 'css', 'react', 'node'],
-     id: 4,
-    
+      "Visqorium Labs is a Blockchain-based company built to power Next-Generation Content Creation.",
+    tech: ["Style-component", "React", "Typescript"],
+    link: "https://visquorium.netlify.app/",
+    image: Vis,
+    id: 4,
   },
 ];
 

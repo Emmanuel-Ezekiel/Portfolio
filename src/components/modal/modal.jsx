@@ -22,7 +22,7 @@ const Modal = ({ data, onClose}) => {
             </div>
 
             <div className="modal-image">
-              <img src="" alt="" srcset="" />
+              <img src={item.image} alt="" srcset="" />
             </div>
 
             <div className="container-Source">
@@ -30,10 +30,16 @@ const Modal = ({ data, onClose}) => {
                 <span className="itemDesc">{item?.description}</span>
               </div>
               <div className="modal-codeSource">
-                <div className="live">
-                  <span id="link">see live</span>{" "}
-                  <MdOpenInNew className="gitLink" />
-                </div>
+                <a
+                  href={item.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className="live">
+                    <span id="link">see live</span>{" "}
+                    <MdOpenInNew className="gitLink" />
+                  </div>
+                </a>
                 <div className="source">
                   <span id="git">see source</span>
                   <VscGithub className="gitLink" />

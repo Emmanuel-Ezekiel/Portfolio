@@ -83,6 +83,7 @@ margin-top: 24px;
     align-items: center;
     width: 684px;
     height: 360px;
+    overflow: scroll;
 }
 
 .dropdown-group {
@@ -126,11 +127,25 @@ margin-top: 24px;
 }
 
 .dropdown-body.open {
-  display: block;
+  display: flex;
+  gap: 12px;
+  overflow: scroll;
+
 }
 
 .dropdown-item {
   padding: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 60px;
+  background: #F7F7F9;
+  border-radius: 8px;
+  height: 80px;
+}
+
+.dropdown-item img {
+  width: 48px;
+  height: 48px;
 }
 
 .dropdown-item:hover {
@@ -148,7 +163,7 @@ margin-top: 24px;
 }
 
 .icon {
-  font-size: 13px;
+  font-size: 18px;
   color: #000;
   transform: rotate(0deg);
   transition: all .2s ease-in-out;
@@ -156,6 +171,11 @@ margin-top: 24px;
 
 .icon.open {
   transform: rotate(90deg);
+}
+
+.itemName {
+  text-align: left;
+  font-size: 16px;
 }
 
 
@@ -169,6 +189,9 @@ margin-top: 24px;
     margin-top: 50px;
     padding: 0px;
 }
+.aboutCon {
+  margin-top: 30px;
+}
 
 .skillList {
  display: flex;
@@ -176,6 +199,9 @@ flex-direction: column;
 align-items: flex-start;
 width: 327px;
 height: 320.15px;
+margin-top: -50px;
+overflow: scroll;
+
 }
 
 .languages {
@@ -198,5 +224,23 @@ height: 320.15px;
 
 .dropdown-header span {
   margin: 0;
+}
+
+.dropdown-body.open {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+}
+
+.dropdown-item {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  width: 288px;
+  background: #F7F7F9;
+  border-radius: 8px;
 }
 }

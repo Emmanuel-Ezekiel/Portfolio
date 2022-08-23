@@ -16,10 +16,9 @@
 
 .Navbar > .nav-items > .list {
     display: flex;
+    cursor: pointer;
 
   }
-
-
 
    .por {
   text-decoration: none;
@@ -37,7 +36,7 @@
     height: 20px;
 }
 
-.Navbar > .nav-logo {
+.nav-logo {
   font-weight: 700;
   font-size: 21px;
   margin: 15px;
@@ -85,7 +84,6 @@
 
   .scroll {
     margin-bottom: 20px;
-    width: 100vw;
   }
 
     .Navbar {

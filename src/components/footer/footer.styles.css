@@ -3,7 +3,6 @@
     width: 100%;
     height:  950px;
     background: #F9F9FA;
-    border: 1px solid black;
 }
 
 .image_gemo {
@@ -17,6 +16,10 @@
     height: 300px; 
     left: 980px;
     top: 68.5%;
+}
+
+.image_gemo3 {
+    display: none;
 }
 
 .footer-form {
@@ -95,7 +98,7 @@ label {
 
 .form1 {
     display: flex;
-    gap: 3px;
+    gap: 23px;
 }
 
 .form-description {
@@ -114,6 +117,14 @@ label {
     width: 100%;
     height: 123px;
     background: #1A2236;
+    border: 1px solid;    
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px;
 }
 
 button {
@@ -128,4 +139,156 @@ button {
     color: #FFFFFF;
     margin: 30px 150px;
     cursor: pointer;
+}
+
+.download {
+    color: #92DCDC;
+    /* margin-left: 160px; */
+    width: 150px;
+    height: 27px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.download span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #92DCDC;
+}
+
+.Icons {
+    color: #FFFFFF;
+    /* margin-right: 160px; */
+    width: 296px;
+    height: 26.93px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.media {
+    width: 24px;
+    height: 24px;
+    color: #FFFFFF;
+}
+.media1 {
+    width: 24px;
+    height: 24px;
+    color: #92DCDC;
+}
+
+
+
+
+@media (max-width: 768px) { 
+
+.footerContainer {
+    height:  813px;
+    margin-top: 80px;
+}
+
+  
+.image_gemo {
+    display: none;
+}
+
+.image_gemo2 {
+  display: none;
+}  
+
+.image_gemo3 {
+    display: block;
+    width: 111px;
+    height: 74.02px;
+}
+
+.footer-form {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.form-header {
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 100%;
+color: #1A2236;
+text-align: left;
+}
+
+.form-description {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.01em;
+    color: #1A2236;
+    width: 327px;
+    text-align: left;
+}
+
+.form {
+    margin-top: 10px;
+}
+
+.form1 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 16px;
+}
+.form2 {
+    margin-left: 16px;
+}
+
+.form-info  input {
+  width: 327px;
+  height: 52px;
+} 
+
+.form-info2  textarea {
+   width: 320px;
+   height: 112px;
+} 
+
+button {
+  width: 327px;
+  height: 44px;
+  margin: 40px 25px;
+}
+
+.footer-bottom {
+    height: 150px;
+}
+
+.footer-container {
+    flex-direction: column;
+    margin: 40px;
+    gap: 20px;
+}
+
+.download {
+    width: 180px;
+    height: 27px;
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+}
+
+
+.Icons {
+    width: 296px;
+    height: 26.93px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
 }

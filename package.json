@@ -6,6 +6,8 @@
     "node": "16.14.0"
   },
   "dependencies": {
+    "@formspree/core": "^2.7.1",
+    "@formspree/react": "^2.3.1",
     "@fortawesome/free-regular-svg-icons": "^6.1.2",
     "@fortawesome/free-solid-svg-icons": "^6.1.2",
     "@fortawesome/react-fontawesome": "^0.2.0",
