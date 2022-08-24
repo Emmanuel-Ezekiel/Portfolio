@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import './portfolio.styles.css';
 import Data from './data';
-import { NavItem } from 'react-bootstrap';
 import Modal from '../../components/modal/modal';
 
 
