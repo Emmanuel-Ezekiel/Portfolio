@@ -67,10 +67,7 @@ const Index = () => {
         <div className="aboutSelf">
           <span className="aboutHead">About MySelf</span>
           <p className="aboutPara">
-            Hello I’m a software developer! I can help you build a product ,
-            feature or website Look through some of my work and experience! If
-            you like what you see and have a project you need coded, don’t
-            hestiate to contact me.
+          A skilled front-end developer with over 3 years of expertise working with technologies such as Redux, and React, as well as languages such as Javascript, CSS, and HTML with extensive knowledge of UI/UX, and agile methodology. Experienced in Proven ability to transform wireframes and high-level designs into semantic, accessible frontend interfaces of complex web apps, as well as developing reusable UI components
           </p>
           <span className="aboutCon">LET’S CONNECT</span>
           <div className="aboutIcon">

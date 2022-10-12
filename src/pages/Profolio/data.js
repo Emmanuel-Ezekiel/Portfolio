@@ -1,7 +1,8 @@
 import Mech from "../../assets/Screen Shot 2022-08-20 at 3.52.06 PM.jpg";
-import Spend from "../../assets/Screen Shot 2022-08-20 at 4.47.43 PM.jpg"
-import Food from "../../assets/Screen Shot 2022-08-20 at 4.35.13 PM.jpg"
-import Vis from "../../assets/Screen Shot 2022-08-20 at 5.45.42 PM.jpg"
+import Spend from "../../assets/Screen Shot 2022-08-20 at 4.47.43 PM.jpg";
+import Food from "../../assets/Screen Shot 2022-08-20 at 4.35.13 PM.jpg";
+import Vis from "../../assets/Screen Shot 2022-08-20 at 5.45.42 PM.jpg";
+import Breet from "../../assets/Screen Shot 2022-10-11 at 10.57.06 PM.png";
 
 
 const Data = [
@@ -40,6 +41,15 @@ const Data = [
     link: "https://visquorium.netlify.app/",
     image: Vis,
     id: 4,
+  },
+  {
+    name: "Breet",
+    description:
+      "With Breet, you have a simple, safe & fast way of converting Crypto to your local currency. Using an automated, fully-secure OTC system, Breet has helped 200,000+ users (individuals and business owners) through a crypto-to-cash process that’s seamless and easy for anyone to use.",
+    tech: ["Sass", "React", "Typescript"],
+    link: "https://breet.app/",
+    image:  Breet,
+    id: 5 ,
   },
 ];
 
